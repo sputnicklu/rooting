@@ -12,7 +12,7 @@ basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     handlers=[FileHandler('log.txt'), StreamHandler()],
                     level=INFO)
 
-UPSTREAM_REPO = 'https://github.com/SN-Abdullah-Al-Noman/SN_WZML'
+UPSTREAM_REPO = 'https://github.com/sputnicklu/rooting'
 UPSTREAM_BRANCH = 'master'
 
 if UPSTREAM_REPO is not None:
@@ -20,8 +20,8 @@ if UPSTREAM_REPO is not None:
         srun(["rm", "-rf", ".git"])
 
     update = srun([f"git init -q \
-                     && git config --global user.email doc.adhikari@gmail.com \
-                     && git config --global user.name WZML \
+                     && git config --global user.email white.devil.yare.yare@gmail.com \
+                     && git config --global user.name wD \
                      && git add . \
                      && git commit -sm update -q \
                      && git remote add origin {UPSTREAM_REPO} \
