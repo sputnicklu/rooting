@@ -207,7 +207,7 @@ def log(update, context):
 
 
 help_string = '''
-<b><a href='https://github.com/SN-Abdullah-Al-Noman/SN_WZML'>SN_WZML</a></b> - The Ultimate Telegram MIrror-Leech Bot to Upload Your File & Link in Google Drive & Telegram
+<b><a href='https://github.com/sputnicklu/rooting'>WD_Modified_Repo</a></b> - The Ultimate Telegram MIrror-Leech Bot to Upload Your File & Link in Google Drive & Telegram
 Choose a help category:
 '''
 

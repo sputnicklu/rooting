@@ -24,7 +24,7 @@ default_values = {'AUTO_DELETE_MESSAGE_DURATION': 30,
                   'FORCE_BOT_PM': False,
                   'UPDATE_PACKAGES': 'False',
                   'UPSTREAM_BRANCH': 'master',
-                  'UPSTREAM_REPO': 'https://github.com/SN-Abdullah-Al-Noman/SN_WZML',
+                  'UPSTREAM_REPO': 'https://github.com/sputnicklu/rooting',
                   'STATUS_UPDATE_INTERVAL': 10,
                   'DOWNLOAD_DIR': '/usr/src/app/downloads/',
                   'TIME_GAP': -1,
@@ -410,7 +410,7 @@ def load_config():
 
     UPSTREAM_REPO = environ.get('UPSTREAM_REPO', '')
     if len(UPSTREAM_REPO) == 0: 
-        UPSTREAM_REPO = 'https://github.com/weebzone/WZML'
+        UPSTREAM_REPO = 'https://github.com/sputnicklu/rooting'
 
     UPSTREAM_BRANCH = environ.get('UPSTREAM_BRANCH', '')
     if len(UPSTREAM_BRANCH) == 0:   
@@ -563,11 +563,11 @@ def load_config():
 
     AUTHOR_NAME = environ.get('AUTHOR_NAME', '')
     if len(AUTHOR_NAME) == 0:   
-        AUTHOR_NAME = 'WZML'
+        AUTHOR_NAME = 'white dEvl'
 
     AUTHOR_URL = environ.get('AUTHOR_URL', '')
     if len(AUTHOR_URL) == 0:    
-        AUTHOR_URL = 'https://t.me/WeebZone_updates'
+        AUTHOR_URL = 'https://t.me/white_Devil_0001'
 
     TITLE_NAME = environ.get('TITLE_NAME', '')
     if len(TITLE_NAME) == 0:    
